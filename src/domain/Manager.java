@@ -46,7 +46,7 @@ public class Manager extends Employee {
     }
     
     /**
-     * Створює новий об'єкт {@code Manager}. 
+     * Створює новий об'єкт {@code Manager}.<br>
      * При цьому ініціалізується массив {@link Manager#employees}.
      */
     public Manager() {
@@ -60,7 +60,7 @@ public class Manager extends Employee {
     private Employee[] employees;
 
     /**
-     * Повертає строку імен співробітників менеджера. 
+     * Повертає строку імен співробітників менеджера.<br> 
      * Ім'я менеджерів розділені символом: <b>,</b>.
      * 
      * @return Імена співробітників менеджера

@@ -78,6 +78,8 @@ public class Editor extends Artist {
     /**
      * Повертає перевагу редактора.<br>
      * Якщо у редактора є навик електронної обробки – <b>true</b>
+     * 
+     * @return Перевага редактора
      */
     public boolean getPreferences() {
         return electronicEditing;

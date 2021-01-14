@@ -38,7 +38,7 @@ public class Artist extends Employee {
     }
     
     /**
-     * Створює новий об'єкт {@code Artist}. 
+     * Створює новий об'єкт {@code Artist}. <br>
      * При цьому ініціалізується массив {@link Artist#skiils}.
      */
     public Artist() {
@@ -60,7 +60,7 @@ public class Artist extends Employee {
     private String[] skiils;
     
     /**
-     * Повертає строку навиків артиста. 
+     * Повертає строку навиків артиста.<br>
      * Навики розділені символом: <b>,</b>.
      * 
      * @return Навики артиста
