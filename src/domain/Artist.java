@@ -5,6 +5,11 @@ import java.util.StringJoiner;
 /**
  * Клас {@code Artist} представляє об'єкт артиста.
  * 
+ * @see  TechnicalWriter
+ * @see  Manager
+ * @see  GraphicIllustrator
+ * @see  Employee
+ * @see  Editor
  */
 public class Artist extends Employee {
 	
@@ -33,7 +38,8 @@ public class Artist extends Employee {
     }
     
     /**
-     * Створює новий об'єкт {@code Artist}. При цьому ініціалізується массив {@link Artist#skiils}.
+     * Створює новий об'єкт {@code Artist}. 
+     * При цьому ініціалізується массив {@link Artist#skiils}.
      */
     public Artist() {
         super();
@@ -54,8 +60,10 @@ public class Artist extends Employee {
     private String[] skiils;
     
     /**
-     * Повертає строку навиків артиста. Навики розділені символом: <b>,</b>.
-     * @return
+     * Повертає строку навиків артиста. 
+     * Навики розділені символом: <b>,</b>.
+     * 
+     * @return Навики артиста
      */
     public String getSkills() {
         /*String s = "";
@@ -72,7 +80,7 @@ public class Artist extends Employee {
     }
     
     /**
-     * Встановлює массиву навиків артисту. {@link Artist#skiils}
+     * Встановлює массив навиків артисту. {@link Artist#skiils}
      */
     public void setSkills(String[] skills) {
         this.skiils = skills;
@@ -80,7 +88,8 @@ public class Artist extends Employee {
     
     /**
      * Повертає массив навиків артиста. {@link Artist#skiils}
-     * @return навики артиста 
+     * 
+     * @return Массив навиків артиста
      */
     public String[] getSkillsLSist() {
         return skiils;
