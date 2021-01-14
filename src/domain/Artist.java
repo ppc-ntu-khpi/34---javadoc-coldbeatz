@@ -62,7 +62,7 @@ public class Artist extends Employee {
     
     /**
      * Повертає строку навиків артиста.<br>
-     * Навики розділені символом: <b>,</b>.
+     * Навики розділені символом: <b>,</b>
      * 
      * @return Навики артиста
      */
@@ -83,7 +83,7 @@ public class Artist extends Employee {
     /**
      * Встановлює массив навиків артисту. {@link Artist#skiils}
      * 
-     * @param skiils навики робітника
+     * @param skills навики робітника
      */
     public void setSkills(String[] skills) {
         this.skiils = skills;
