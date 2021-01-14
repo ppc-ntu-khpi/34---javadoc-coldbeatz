@@ -54,7 +54,7 @@ public class Artist extends Employee {
     private String[] skiils;
     
     /**
-     * Повертає навики артиста. 
+     * Повертає строку навиків артиста. Навики розділені символом: <b>,</b>.
      * @return
      */
     public String getSkills() {
