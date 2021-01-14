@@ -50,10 +50,10 @@ public class Employee {
     /**
      * Створює новий об'єкт {@code Employee}.
      * 
-	 * @param name – ім'я робітника
-	 * @param jobTitle – посада робітника
-	 * @param level – рівень робітника
-	 * @param dept – відділ робітника
+	 * @param name ім'я робітника
+	 * @param jobTitle посада робітника
+	 * @param level рівень робітника
+	 * @param dept відділ робітника
      */
     public Employee(String name, String jobTitle, int level, String dept) {
         this();
@@ -86,7 +86,7 @@ public class Employee {
     /**
      * Встановлює поле посади робітника. {@link Employee#jobTitle}
      * 
-     * @param jobTitle – посада робітника
+     * @param job посада робітника
      */
     public void setJobTitle(String job) {
         jobTitle = job;
@@ -113,7 +113,7 @@ public class Employee {
     /**
      * Встановлює поле і визначає рівень робітника. {@link Employee#level}
      * 
-     * @param level – рівень робітника
+     * @param level рівень робітника
      */
     public void setLevel(int level) {
         switch (level) {
@@ -148,7 +148,7 @@ public class Employee {
     /**
      * Встановлює поле відділа робітника. {@link Employee#dept}
      * 
-     * @param dept – відділ робітника
+     * @param dept відділ робітника
      */
     public void setDept(String dept) {
         this.dept = dept;
@@ -159,7 +159,7 @@ public class Employee {
      * Якщо ім'я корректне і відповідає RegExp, встановлюється значення параметру <b>name</b>.<br>
      * Якщо ім'я не корректне – встановлюється значення <b>John Doe</b>.
      * 
-     * @param name – ім'я робітника
+     * @param name ім'я робітника
      */
     public void setName(String name) {
 //        boolean correctName = true;

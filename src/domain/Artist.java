@@ -11,16 +11,17 @@ import java.util.StringJoiner;
  * @see  Employee
  * @see  Editor
  */
+
 public class Artist extends Employee {
 	
 	/**
 	 * Ініціалізує новий об'єкт {@code Artist} зі всіма параметрами.
 	 * 
-	 * @param skiils – навики робітника
-	 * @param name – ім'я робітника
-	 * @param jobTitle – посада робітника
-	 * @param level – рівень робітника
-	 * @param dept – відділ робітника
+	 * @param skiils навики робітника
+	 * @param name ім'я робітника
+	 * @param jobTitle посада робітника
+	 * @param level рівень робітника
+	 * @param dept відділ робітника
 	 */
     public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
@@ -30,7 +31,7 @@ public class Artist extends Employee {
     /**
      * Створює новий об'єкт {@code Artist} з параметром навиків артиста.
      * 
-     * @param skiils – навики робітника
+     * @param skiils навики робітника
      */
     public Artist(String[] skiils) {
         super();
@@ -82,7 +83,7 @@ public class Artist extends Employee {
     /**
      * Встановлює массив навиків артисту. {@link Artist#skiils}
      * 
-     * @param skiils – навики робітника
+     * @param skiils навики робітника
      */
     public void setSkills(String[] skills) {
         this.skiils = skills;

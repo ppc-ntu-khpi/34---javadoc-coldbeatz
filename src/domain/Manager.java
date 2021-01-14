@@ -16,11 +16,11 @@ public class Manager extends Employee {
 	/**
 	 * Ініціалізує новий об'єкт {@code Manager} зі всіма параметрами.
 	 * 
-	 * @param employees – співробітники
-	 * @param name – ім'я робітника
-	 * @param jobTitle – посада робітника
-	 * @param level – рівень робітника
-	 * @param dept – відділ робітника
+	 * @param employees співробітники
+	 * @param name ім'я робітника
+	 * @param jobTitle посада робітника
+	 * @param level рівень робітника
+	 * @param dept відділ робітника
 	 */
     public Manager(Employee[] employees, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
@@ -38,7 +38,7 @@ public class Manager extends Employee {
     /**
      * Створює новий об'єкт {@code Manager} з параметром співробітників менеджера.
      * 
-     * @param employees – співробітники
+     * @param employees співробітники
      */
     public Manager(Employee[] employees) {
         super();
@@ -82,7 +82,7 @@ public class Manager extends Employee {
     /**
      * Встановлює массив співробітників менеджера. {@link Manager#employees}
      * 
-     * @param employees – співробітники
+     * @param employees співробітники
      */
     public void setEmployees(Employee[] employees) {
         this.employees=employees;

@@ -14,12 +14,12 @@ public class Editor extends Artist {
 	/**
 	 * Ініціалізує новий об'єкт {@code Editor} зі всіма параметрами.
 	 * 
-	 * @param electronicEditing – електронна обробка
-	 * @param skiils – навики робітника
-	 * @param name – ім'я робітника
-	 * @param jobTitle – посада робітника
-	 * @param level – рівень робітника
-	 * @param dept – відділ робітника
+	 * @param electronicEditing електронна обробка
+	 * @param skiils навики робітника
+	 * @param name ім'я робітника
+	 * @param jobTitle посада робітника
+	 * @param level рівень робітника
+	 * @param dept відділ робітника
 	 */
     public Editor(boolean electronicEditing, String[] skiils, String name, String jobTitle, int level, String dept) {
         super(skiils, name, jobTitle, level, dept);
@@ -29,8 +29,8 @@ public class Editor extends Artist {
     /**
      * Створює новий об'єкт {@code Editor} з параметром навиків редактора та електронної обробки.
      * 
-     * @param electronicEditing – електронна обробка
-     * @param skiils – навики робітника
+     * @param electronicEditing електронна обробка
+     * @param skiils навики робітника
      */
     public Editor(boolean electronicEditing, String[] skiils) {
         super(skiils);
@@ -40,7 +40,7 @@ public class Editor extends Artist {
     /**
      * Створює новий об'єкт {@code Editor} з параметром електронної обробки.
      * 
-     * @param electronicEditing – електронна обробка
+     * @param electronicEditing електронна обробка
      */
     public Editor(boolean electronicEditing) {
         super();
@@ -88,7 +88,7 @@ public class Editor extends Artist {
     /**
      * Встановлює поле електронної обробки. {@link Editor#electronicEditing}
      * 
-     * @param electronic – електронна обробка
+     * @param electronic електронна обробка
      */
     public void setPreferences(boolean electronic) {
         this.electronicEditing=electronic;
