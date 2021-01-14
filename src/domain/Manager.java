@@ -18,7 +18,7 @@ public class Manager extends Employee {
 	 * 
 	 * @param employees – співробітники
 	 * @param name – ім'я робітника
-	 * @param jobTitle – помада робітника
+	 * @param jobTitle – посада робітника
 	 * @param level – рівень робітника
 	 * @param dept – відділ робітника
 	 */
@@ -81,6 +81,8 @@ public class Manager extends Employee {
     
     /**
      * Встановлює массив співробітників менеджера. {@link Manager#employees}
+     * 
+     * @param employees – співробітники
      */
     public void setEmployees(Employee[] employees) {
         this.employees=employees;

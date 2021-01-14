@@ -1,15 +1,48 @@
 package domain;
-public class Employee {
 
+/**
+ * Клас {@code Employee} представляє об'єкт праціника.
+ * 
+ * @see  TechnicalWriter
+ * @see  Manager
+ * @see  GraphicIllustrator
+ * @see  Artist
+ * @see  Editor
+ */
+public class Employee {
+	
+    /**
+     * Строкове представлення об'єкта {@code Employee}
+     */
     @Override
     public String toString() {
-        return "\nEmployee ID= " + ID + "\nName= " + name + "\nJobTitle= " + jobTitle + "\nLevel= " + level + "\nDept= " + dept;
+        return "\nEmployee ID= " + ID + "\nName= " + name + "\nJobTitle= " + 
+        		jobTitle + "\nLevel= " + level + "\nDept= " + dept;
     }
 
+    /**
+     * Ім'я робітника
+     */
     private String name;
+    
+    /**
+     * Ім'я робітника
+     */
     private String jobTitle;
+    
+    /**
+     * Ім'я робітника
+     */
     private int ID;
+    
+    /**
+     * Ім'я робітника
+     */
     private int level;
+    
+    /**
+     * Ім'я робітника
+     */
     private String dept;
 
    // private static int employeesCount = 0;

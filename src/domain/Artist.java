@@ -18,7 +18,7 @@ public class Artist extends Employee {
 	 * 
 	 * @param skiils – навики робітника
 	 * @param name – ім'я робітника
-	 * @param jobTitle – помада робітника
+	 * @param jobTitle – посада робітника
 	 * @param level – рівень робітника
 	 * @param dept – відділ робітника
 	 */
@@ -81,6 +81,8 @@ public class Artist extends Employee {
     
     /**
      * Встановлює массив навиків артисту. {@link Artist#skiils}
+     * 
+     * @param skiils – навики робітника
      */
     public void setSkills(String[] skills) {
         this.skiils = skills;
