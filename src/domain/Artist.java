@@ -3,19 +3,19 @@ package domain;
 import java.util.StringJoiner;
 
 /**
- * Клас {@code Artist} представляє об'єкт артиста.
+ * РљР»Р°СЃ {@code Artist} РїСЂРµРґСЃС‚Р°РІР»СЏС” РѕР±'С”РєС‚ Р°СЂС‚РёСЃС‚Р°.
  * 
  */
 public class Artist extends Employee {
 	
 	/**
-	 * Ініціалізує новий об'єкт {@code Artist} зі всіма параметрами.
+	 * Р†РЅС–С†С–Р°Р»С–Р·СѓС” РЅРѕРІРёР№ РѕР±'С”РєС‚ {@code Artist} Р·С– РІСЃС–РјР° РїР°СЂР°РјРµС‚СЂР°РјРё.
 	 * 
-	 * @param skiils – навики робітника
-	 * @param name – ім'я робітника
-	 * @param jobTitle – помада робітника
-	 * @param level – рівень робітника
-	 * @param dept – відділ робітника
+	 * @param skiils вЂ“ РЅР°РІРёРєРё СЂРѕР±С–С‚РЅРёРєР°
+	 * @param name вЂ“ С–Рј'СЏ СЂРѕР±С–С‚РЅРёРєР°
+	 * @param jobTitle вЂ“ РїРѕРјР°РґР° СЂРѕР±С–С‚РЅРёРєР°
+	 * @param level вЂ“ СЂС–РІРµРЅСЊ СЂРѕР±С–С‚РЅРёРєР°
+	 * @param dept вЂ“ РІС–РґРґС–Р» СЂРѕР±С–С‚РЅРёРєР°
 	 */
     public Artist(String[] skiils, String name, String jobTitle, int level, String dept) {
         super(name, jobTitle, level, dept);
@@ -23,9 +23,9 @@ public class Artist extends Employee {
     }
     
     /**
-     * Створює новий об'єкт {@code Artist} з параметром навиків артиста.
+     * РЎС‚РІРѕСЂСЋС” РЅРѕРІРёР№ РѕР±'С”РєС‚ {@code Artist} Р· РїР°СЂР°РјРµС‚СЂРѕРј РЅР°РІРёРєС–РІ Р°СЂС‚РёСЃС‚Р°.
      * 
-     * @param skiils – навики робітника
+     * @param skiils вЂ“ РЅР°РІРёРєРё СЂРѕР±С–С‚РЅРёРєР°
      */
     public Artist(String[] skiils) {
         super();
@@ -33,7 +33,7 @@ public class Artist extends Employee {
     }
     
     /**
-     * Створює новий об'єкт {@code Artist}. При цьому ініціалізується массив {@link Artist#skiils}.
+     * РЎС‚РІРѕСЂСЋС” РЅРѕРІРёР№ РѕР±'С”РєС‚ {@code Artist}. РџСЂРё С†СЊРѕРјСѓ С–РЅС–С†С–Р°Р»С–Р·СѓС”С‚СЊСЃСЏ РјР°СЃСЃРёРІ {@link Artist#skiils}.
      */
     public Artist() {
         super();
@@ -41,7 +41,7 @@ public class Artist extends Employee {
     }
 
     /**
-     * Строкове представлення об'єкта {@code Artist}
+     * РЎС‚СЂРѕРєРѕРІРµ РїСЂРµРґСЃС‚Р°РІР»РµРЅРЅСЏ РѕР±'С”РєС‚Р° {@code Artist}
      */
     @Override
     public String toString() {
@@ -49,12 +49,12 @@ public class Artist extends Employee {
     }
     
     /**
-     * Навики артиста
+     * РќР°РІРёРєРё Р°СЂС‚РёСЃС‚Р°
      */
     private String[] skiils;
     
     /**
-     * Повертає навики артиста. 
+     * РџРѕРІРµСЂС‚Р°С” РЅР°РІРёРєРё Р°СЂС‚РёСЃС‚Р°. 
      * @return
      */
     public String getSkills() {
@@ -62,7 +62,7 @@ public class Artist extends Employee {
         for (String e : skiils) {
             s = s + e + ", ";
         }
-       s=s.substring(0, s.length() - 2);
+        s=s.substring(0, s.length() - 2);
         return s;*/
     	StringJoiner sj = new StringJoiner(", ");
     	for (String skiil : skiils) {
@@ -72,15 +72,15 @@ public class Artist extends Employee {
     }
     
     /**
-     * Встановлює массиву навиків артисту. {@link Artist#skiils}
+     * Р’СЃС‚Р°РЅРѕРІР»СЋС” РјР°СЃСЃРёРІСѓ РЅР°РІРёРєС–РІ Р°СЂС‚РёСЃС‚Сѓ. {@link Artist#skiils}
      */
     public void setSkills(String[] skills) {
         this.skiils = skills;
     }
     
     /**
-     * Повертає массив навиків артиста. {@link Artist#skiils}
-     * @return навики артиста 
+     * РџРѕРІРµСЂС‚Р°С” РјР°СЃСЃРёРІ РЅР°РІРёРєС–РІ Р°СЂС‚РёСЃС‚Р°. {@link Artist#skiils}
+     * @return РЅР°РІРёРєРё Р°СЂС‚РёСЃС‚Р° 
      */
     public String[] getSkillsLSist() {
         return skiils;
