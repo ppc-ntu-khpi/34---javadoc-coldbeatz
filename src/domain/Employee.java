@@ -1,7 +1,7 @@
 package domain;
 
 /**
- * Клас {@code Employee} представляє об'єкт праціника.
+ * Клас {@code Employee} представляє об'єкт працівника.
  * 
  * @see  TechnicalWriter
  * @see  Manager
